@@ -1,0 +1,76 @@
+button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 50px;
+  }
+
+p{
+    background-image: linear-gradient(to right, #f4511e, #f4511e);
+    background-size: 100% 2px;
+    background-position: 0 100%;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+input{
+    color: #ffffff;
+    background-image: linear-gradient(to right, #332c2a, #ddd9d8);
+    background-size: 100% 2px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+input:hover{
+    background-color: #FFFFFF;
+    color: #f4511e;
+    border: 2px solid #f4511e;
+    transform: scale(1.1);
+    animation-timing-function: ease-in;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    0%   {background-color: #f4501e2c;}
+    25%  {background-color: #f4501e2a;}
+    50%  {background-color: #f4501e8a;}
+    75%  {background-color: #f4501e62;}
+    100% {background-color: #f44916;}
+}
+label{
+    color: #0b0b0b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+body{
+    background-image: linear-gradient(to right, #332c2a, #ddd9d8);
+    background-size: 100% 2px;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #f4511e;
+    border: 2px solid #f4511e;
+    transform: scale(1.1);
+    animation-timing-function: ease-in;
+}
